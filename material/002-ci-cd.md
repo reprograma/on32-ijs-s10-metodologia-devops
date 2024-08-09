@@ -6,7 +6,7 @@
   Ferramentas automatizadas são usadas para afirmar a correção do novo código antes da integração no código principal.
 
 <div style="text-align: center;">
-<img src="../assets/continuous-integration-2.jpg" alt="CI" width="400"/>
+  <img src="../assets/continuous-integration-2.jpg" alt="CI" width="400"/>
 </div>
 
   #### Build:

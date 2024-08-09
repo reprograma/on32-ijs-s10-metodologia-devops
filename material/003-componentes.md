@@ -39,4 +39,3 @@ Refere-se ao planejamento, design e organização dos componentes tecnológicos 
 Exemplo: [Evoluindo diante de uma pandemia, como escalar para atender um país inteiro usando tecnologias sem servidor na AWS](https://aws.amazon.com/pt/blogs/aws-brasil/evoluindo-diante-de-uma-pandemia-como-escalar-para-atender-um-pais-inteiro-usando-tecnologias-sem-servidor-na-aws/)
 
 <img src="../assets/arquitetura.png" alt="CI" width="800"/>
-
