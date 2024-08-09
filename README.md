@@ -21,7 +21,7 @@ Antes de começar, vamos organizar nosso setup.
 * Fork esse repositório 
 * Clone o fork na sua máquina (Para isso basta abrir o seu terminal e digitar `git clone url-do-seu-repositorio-forkado`)
 * Entre na pasta do seu repositório (Para isso basta abrir o seu terminal e digitar `cd nome-do-seu-repositorio-forkado`)
-
+* Caso precise, pode utilizar as instruções de Pull Request [aqui](./material/instrucoes-pull-request.md).
 
 ### Objetivo
 
@@ -29,7 +29,7 @@ Proporcionar uma compreensão abrangente dos conceitos, práticas e ferramentas 
 
 ### Resumo
 O que veremos essa semana?
-- [Tema da Aula](#tema-da-aula)
+- Tema da Aula](#tema-da-aula)[
 
   - [Instruções](#instruções)
   - [Objetivo](#objetivo)
