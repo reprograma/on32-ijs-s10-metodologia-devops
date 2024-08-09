@@ -5,9 +5,9 @@
 
   Ferramentas automatizadas são usadas para afirmar a correção do novo código antes da integração no código principal.
 
+<div style="text-align: center;">
 <img src="../assets/continuous-integration-2.jpg" alt="CI" width="400"/>
-
-
+</div>
 
   #### Build:
    É a compilação do código, no caso da esteira de CI esta compilação vai ocorrer sempre em um ambiente configurado de forma padrão e com todas as dependências da aplicação, evitando assim o "na minha máquina funciona".
@@ -40,8 +40,9 @@ são práticas no ciclo de vida de desenvolvimento de software que se concentram
 | **Benefícios**               | - Maior produtividade; Automação completa do processo de entrega; Bugs são encontrados e podem ser solucionados mais cedo; Novas atualizações lançadas com mais frequência | - Processo de liberação mais rápido; Não há necessidade de intervenções humanas; É fácil encontrar e consertar problemas; Novas atualizações lançadas com mais frequência |
 | **Desafios**                 | - Requer um CI sólido; Requer uma boa suíte de testes; Precisa de um processo de implantação automatizado; Uso adequado de features flags | - Requer um excelente conjunto de testes; Documentação deve permanecer atualizada; Features flags se tornam uma parte inerente ao processo DevOps |
 
+<div style="text-align: center;">
 <img src="../assets/cd.jpeg" alt="CI" width="500"/>
-
+</div>
 
 Ambas as práticas são fundamentais para as organizações que buscam maior agilidade e qualidade no desenvolvimento de software, permitindo que as equipes entreguem valor aos usuários finais de forma rápida e eficiente.
 
@@ -52,4 +53,6 @@ Ambas as práticas são fundamentais para as organizações que buscam maior agi
 | Refere-se à integração, construção e teste de código dentro do ambiente de desenvolvimento de software. Promove a prática de compartilhamento de código na comunidade de desenvolvimento de software, mesclando alterações em um repositório de código compartilhado centralmente. | Significa que o software que passou pelo build pode ser liberado para produção. Significa que um deploy pode acontecer com uma certa frequência, mas cada versão é decidida e liberada caso a caso. | Significa que as mudanças, através do pipeline, são automaticamente colocadas em produção. Habilita que múltiplos deploys possam ser realizados por dia. Requer que a Entrega Contínua esteja sendo feita. |
 
 
-<img src="../assets/fluxo-ci-cd.png" alt="CI" width="500"/> 
+<div style="text-align: center;">
+  <img src="../assets/fluxo-ci-cd.png" alt="CI" width="800"/>
+</div>
