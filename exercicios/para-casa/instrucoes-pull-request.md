@@ -23,8 +23,8 @@ O que?
 Resolução dos exercícios de lógica.
 
 Como?
-* Adicionei um arquivo para resolver a atividade 1 utilizando os métodos slice e split;
-* Adicionei casos de testes unitários para cada um dos exercícios utilizando jest;
+* Adicionei um arquivo para resolver a atividade 1 utilizando o GitActions;
+* Adicionei passo de testes unitários na esteira;
 * Outro ponto que você queira adicionar.
 ```
 Feito isso, é so clicar em “Create pull request”. <br> <br>
