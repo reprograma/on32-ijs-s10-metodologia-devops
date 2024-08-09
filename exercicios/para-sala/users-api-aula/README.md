@@ -107,11 +107,13 @@ CMD ["npm", "start"]
 
 ```
 
-- Buildando a aplicação:
+- Buildando a aplicação em docker local:
 
 ```sh
 docker run -p 3000:3000 minha-aplicacao
 ```
+
+- Buildando a aplicação no Git Acctions e fazendo push para o Docker Hub
 
 ### Acessando rota via CURL
 
