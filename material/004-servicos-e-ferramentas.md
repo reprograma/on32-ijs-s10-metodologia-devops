@@ -85,3 +85,4 @@ OpenStack: Plataforma de nuvem open-source que permite construir e gerenciar inf
 Enfim, existem uma infinidade de ferramentas no mercado atualmente, tando pagas quanto gratuítas, cada uma podendo ser usada em fases do processo. A imagem abaixo reflete um pouco disso.
 
 <img src="../assets/ferramentas.jpeg" alt="CI" width="600"/>
+

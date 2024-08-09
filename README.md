@@ -39,6 +39,7 @@ O que veremos essa semana?
   - [CI/CD:continuous integration e continuous delivery](./material/002-ci-cd.md)
   - [Componentes](./material/003-componentes.md)
   - [Serviços e Ferramentas](./material/004-servicos-e-ferramentas.md)
+   - [Inteligência Artificial (IA) e DevOps](./material/005-Inteligencia-artificial-e-devops.md)
 
 - [Materiais](#materiais)
   - [PDF da Aula](./material/Aula_10_Metodologia_DevOps.pdf)
