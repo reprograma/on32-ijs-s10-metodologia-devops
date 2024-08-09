@@ -5,9 +5,10 @@
 
   Ferramentas automatizadas são usadas para afirmar a correção do novo código antes da integração no código principal.
 
-<div style="text-align: center;">
+<div style="display: flex; justify-content: center;">
   <img src="../assets/continuous-integration-2.jpg" alt="CI" width="400"/>
 </div>
+
 
   #### Build:
    É a compilação do código, no caso da esteira de CI esta compilação vai ocorrer sempre em um ambiente configurado de forma padrão e com todas as dependências da aplicação, evitando assim o "na minha máquina funciona".
