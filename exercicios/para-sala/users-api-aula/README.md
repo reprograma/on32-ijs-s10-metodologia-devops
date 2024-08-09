@@ -113,7 +113,94 @@ CMD ["npm", "start"]
 docker run -p 3000:3000 minha-aplicacao
 ```
 
-- Buildando a aplicação no Git Acctions e fazendo push para o Docker Hub
+- Construindo um pipeline para a aplicação no Git Acctions que faz push para o Docker Hub:
+
+  - Crie as secrets que vai usar no projeto. *Settings* > *secrets and variables* > clique em *New repository secret* > *Add Secret*. Faça isso com todas que for usar no pipeline.
+  
+  <p align="center">
+<img src="../../../assets/new-secret.png" width="500">
+</p>
+
+  - Crie uma pasta workflows na raiz do projeto e nela adicione um arquivo *pipeline.yaml* com o seguinte conteúdo:
+
+```
+name: CI
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  build:
+
+    # executar comandos em um subdiretório
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: ./exercicios/para-sala/users-api-aula
+
+    # configuração do ambiente de execução do projeto Node.js
+    strategy:
+      matrix:
+        node-version: [18.x]
+        # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
+
+    steps:
+    # clone do repositório
+    - name: checkout 
+      uses: actions/checkout@v4
+
+    # pega a versão declarada do Node.j e configura no ambiente virtual
+    - name: Use Node.js ${{ matrix.node-version }}
+      uses: actions/setup-node@v3
+      with:
+        node-version: ${{ matrix.node-version }}
+
+    # instala dependencias e roda os testes
+    - run: npm ci
+    - run: npm run build --if-present
+    - run: npm test
+
+    # lint para garantir que o código segue os padrões definidos
+    - name: Run ESLint
+      run: npm run lint
+
+    # verificação de vulnerabilidades em pacotes
+    - name: Run security audit
+      run: npm audit
+
+    # conferir se tem erros de tipagem
+    - name: TypeScript Check
+      run: npx tsc --noEmit
+
+    # setamos o Docker Buildx no ambiente onde o job está sendo executado. 
+    # Permite construir imagens Docker para várias arquiteturas 
+    - name: Set up Docker Buildx
+      if: github.ref == 'refs/heads/main'
+      uses: docker/setup-buildx-action@v3
+
+    # faz login no docker hub 
+    - name: Log in to Docker Hub
+      if: github.ref == 'refs/heads/main'
+      uses: docker/login-action@v3
+      with:
+        username: ${{ secrets.DOCKER_USERNAME }}
+        password: ${{ secrets.DOCKER_TOKEN }}
+
+    - name: Build and push
+      if: github.ref == 'refs/heads/main'
+      uses: docker/build-push-action@v4
+      with:
+        context: exercicios/para-sala/users-api-aula
+        push: true
+        tags: raissabrizeno/users-api-aula:1.0.0
+
+```
+
+
+## Testes locais de aplicação: 
 
 ### Acessando rota via CURL
 
