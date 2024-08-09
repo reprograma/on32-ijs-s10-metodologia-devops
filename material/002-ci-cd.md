@@ -30,8 +30,9 @@
 <img src="../assets/versionamento.png" alt="CI" width="400"/>
 
 
-## Continuous Delivery e Continuous Deployment (CI)
+## Continuous Delivery e Continuous Deployment (CD)
 
+são práticas no ciclo de vida de desenvolvimento de software que se concentram na automação do processo de entrega e implantação de software, tornando-o mais rápido, confiável e menos sujeito a erros humanos. Ambos estão intimamente relacionados, mas há uma diferença crucial entre eles.
 
 |                              | **Entrega Contínua (Continuous Delivery)**                | **Deploy Contínuo (Continuous Deployment)**                |
 |------------------------------|----------------------------------------------------------|------------------------------------------------------------|
@@ -40,6 +41,9 @@
 | **Desafios**                 | - Requer um CI sólido; Requer uma boa suíte de testes; Precisa de um processo de implantação automatizado; Uso adequado de features flags | - Requer um excelente conjunto de testes; Documentação deve permanecer atualizada; Features flags se tornam uma parte inerente ao processo DevOps |
 
 <img src="../assets/cd.jpeg" alt="CI" width="500"/>
+
+
+Ambas as práticas são fundamentais para as organizações que buscam maior agilidade e qualidade no desenvolvimento de software, permitindo que as equipes entreguem valor aos usuários finais de forma rápida e eficiente.
 
 ### Resumindo...
 
