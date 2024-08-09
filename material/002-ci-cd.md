@@ -32,14 +32,14 @@
 
 ## Continuous Delivery e Continuous Deployment (CI)
 
-<img src="../assets/cd.jpeg" alt="CI" width="400"/>
-
 
 |                              | **Entrega Contínua (Continuous Delivery)**                | **Deploy Contínuo (Continuous Deployment)**                |
 |------------------------------|----------------------------------------------------------|------------------------------------------------------------|
 | **Definição**                | Alterações de códigos são automaticamente preparadas para implantação | Alterações de códigos são liberadas automaticamente no ambiente de produção |
 | **Benefícios**               | - Maior produtividade; Automação completa do processo de entrega; Bugs são encontrados e podem ser solucionados mais cedo; Novas atualizações lançadas com mais frequência | - Processo de liberação mais rápido; Não há necessidade de intervenções humanas; É fácil encontrar e consertar problemas; Novas atualizações lançadas com mais frequência |
 | **Desafios**                 | - Requer um CI sólido; Requer uma boa suíte de testes; Precisa de um processo de implantação automatizado; Uso adequado de features flags | - Requer um excelente conjunto de testes; Documentação deve permanecer atualizada; Features flags se tornam uma parte inerente ao processo DevOps |
+
+<img src="../assets/cd.jpeg" alt="CI" width="500"/>
 
 ### Resumindo...
 
