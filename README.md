@@ -4,7 +4,7 @@
 
 # Tema da Aula
 
-Turma Online ON32 - Imersão JavaScript | Semana 10 | 2024 | Professora Raissa Brizeno
+Turma Online ON32 - Metodologia DevOps | Semana 10 | 2024 | Professora Raissa Brizeno
 
 ### Professora Raissa
 <h1>
@@ -33,7 +33,6 @@ O que veremos essa semana?
 
   - [Instruções](#instruções)
   - [Objetivo](#objetivo)
-  - [Resumo](#resumo)
 
 - [Conteúdo](#conteúdo)
   - [O que é DevOps e DevSecOps?](./material/001-o-que-e-devops-e-desecops.md)
