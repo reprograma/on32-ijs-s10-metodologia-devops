@@ -3,6 +3,8 @@ name: CI
 on:
   push:
     branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
 
 jobs:
   build:
@@ -25,7 +27,7 @@ jobs:
     - name: Build and push Docker image
       uses: docker/build-push-action@v5
       with:
-        context: .
+        context: ./exercicios/para-sala/users-api-aula
         push: true
         tags: raissabrizeno/users-api-aula:1.0.0
 
