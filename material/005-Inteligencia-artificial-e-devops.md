@@ -2,7 +2,7 @@
 
 A combinação de Inteligência Artificial (IA) e DevOps está revolucionando a forma como o software é desenvolvido, testado, implantado e mantido. A integração da IA no ciclo de vida do DevOps, muitas vezes chamada de AIOps (Artificial Intelligence for IT Operations), oferece novas possibilidades para automação avançada, análise preditiva, otimização e melhoria contínua dos processos de desenvolvimento e operações.
 
-<img src="../assets/iops.jpeg" alt="iops" width="400"/>
+<img src="../assets/iops.jpeg" alt="iops" width="600"/>
 
 ## Como a IA Está Transformando o DevOps?
 
