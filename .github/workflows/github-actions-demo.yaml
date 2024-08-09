@@ -43,6 +43,6 @@ jobs:
     - name: Build and push Docker image
       uses: docker/build-push-action@v5
       with:
-        context: .
+        context: ./exercicios/para-sala/users-api-aula/Dockerfile
         push: true
         tags: raissabrizeno/users-api-aula:1.0.0
