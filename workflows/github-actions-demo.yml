@@ -21,7 +21,7 @@ jobs:
     - name: Log in to Docker Hub
       uses: docker/login-action@v2
       with:
-        username: raissabrizeno
+        username: raissa.brizeno@gmail.com
         password: dckr_pat_twBu8tCgMEnap1eJZp7Ul4_WrI0
 
     - name: Build and push Docker image
