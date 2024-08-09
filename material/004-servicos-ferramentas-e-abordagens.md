@@ -6,12 +6,13 @@ As ferramentas e serviços são essenciais para automatizar e integrar processos
 
 ### Controle de Versão
 
-#### Git: 
+#### Git:
+
 Sistema de controle de versão distribuído que permite que múltiplos desenvolvedores trabalhem em paralelo em um projeto. Git é a base para muitas outras ferramentas DevOps.
 
 GitHub, GitLab, Bitbucket: Plataformas baseadas em Git que oferecem repositórios de código, revisão de código, integração contínua, e outras funcionalidades colaborativas.
 
-#### Integração Contínua / Entrega Contínua (CI/CD); 
+#### Integração Contínua / Entrega Contínua (CI/CD):
 
 Jenkins: Uma das ferramentas de CI/CD mais populares, Jenkins é altamente extensível e suporta uma ampla gama de plugins para automação de build, teste e deployment.
 
@@ -80,7 +81,6 @@ Argo CD: Ferramenta de CD (Continuous Delivery) para Kubernetes, que oferece uma
 AWS, Azure, Google Cloud Platform (GCP): Provedores de nuvem que oferecem uma ampla gama de serviços de infraestrutura, desde máquinas virtuais e armazenamento até serviços de AI/ML e IoT.
 
 OpenStack: Plataforma de nuvem open-source que permite construir e gerenciar infraestruturas de nuvem privada e pública.
-
 
 Enfim, existem uma infinidade de ferramentas no mercado atualmente, tando pagas quanto gratuítas, cada uma podendo ser usada em fases do processo. A imagem abaixo reflete um pouco disso.
 
