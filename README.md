@@ -39,7 +39,8 @@ O que veremos essa semana?
   - [CI/CD:continuous integration e continuous delivery](./material/002-ci-cd.md)
   - [Componentes](./material/003-componentes.md)
   - [Serviços e Ferramentas](./material/004-servicos-e-ferramentas.md)
-   - [Inteligência Artificial (IA) e DevOps](./material/005-Inteligencia-artificial-e-devops.md)
+  - [Inteligência Artificial (IA) e DevOps](./material/005-Inteligencia-artificial-e-devops.md)
+  - [Git Flow vs Trunk Based](./material/006-gitflow-e-trunk-bases.md)
 
 - [Materiais](#materiais)
   - [PDF da Aula](./material/Aula_10_Metodologia_DevOps.pdf)
@@ -57,15 +58,22 @@ O que veremos essa semana?
 ---
 
 ### Links Úteis
-* https://www.redhat.com/pt-br/topics/devops
-* https://www.redhat.com/pt-br/topics/devops/what-is-ci-cd
-* https://gaea.com.br/devops-na-pratica-dia-a-dia-do-desenvolvedor/
+* [Introdução ao DevOps](https://www.redhat.com/pt-br/topics/devops)
+* [O que é CI/CD?](https://www.redhat.com/pt-br/topics/devops/what-is-ci-cd)
+* [DevOps na prática: dia a dia do desenvolvedor](https://gaea.com.br/devops-na-pratica-dia-a-dia-do-desenvolvedor/)
+* [Testes de Software: Definição, Conceitos e Exemplos](https://www.objective.com.br/insights/testes-de-software/#:~:text=O%20que%20%C3%A9%20um%20teste,corretamente%20tudo%20que%20ele%20prop%C3%B5e)
+* [Conheça a incrível história do DevOps](https://gaea.com.br/conheca-a-incrivel-historia-do-devops/#:~:text=O%20embri%C3%A3o%20da%20hist%C3%B3ria%20do,desenvolvimento%20e%20opera%C3%A7%C3%B5es%20de%20TI)
+* [Por que o versionamento de software é tão importante?](https://www.locaweb.com.br/blog/temas/codigo-aberto/versionamento-de-software-importancia/)
+* [Saiba tudo sobre o Gitflow Workflow](https://www.atlassian.com/br/git/tutorials/comparing-workflows/gitflow-workflow)
+[Trunk-based development](https://www.atlassian.com/continuous-delivery/continuous-integration/trunk-based-development)
+
+### Links documentação de ferramentas:
 * https://backstage.io/
 * https://helm.sh/docs/
 * https://tekton.dev/docs/
-* https://www.objective.com.br/insights/testes-de-software/#:~:text=O%20que%20%C3%A9%20um%20teste,corretamente%20tudo%20que%20ele%20prop%C3%B5e
-* https://gaea.com.br/conheca-a-incrivel-historia-do-devops/#:~:text=O%20embri%C3%A3o%20da%20hist%C3%B3ria%20do,desenvolvimento%20e%20opera%C3%A7%C3%B5es%20de%20TI
-* https://www.locaweb.com.br/blog/temas/codigo-aberto/versionamento-de-software-importancia/
+* https://argoproj.github.io/cd/
+* [AWS Treinamento e Certificação](https://aws.amazon.com/pt/training/?nc2=type_a)
+
 
 ### Livros
 <h1>
