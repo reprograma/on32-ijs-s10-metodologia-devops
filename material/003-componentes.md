@@ -10,7 +10,7 @@
 - Experiência de usuário.
 
 <div style="text-align: center;">
-  <img src="../assets/grafana.png" alt="CI" width="400"/>
+  <img src="../assets/grafana.png" alt="CI" width="800"/>
   <p><em>Gráfico de Monitoramento com Grafana</em></p>
 </div>
 
