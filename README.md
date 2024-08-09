@@ -2,7 +2,7 @@
   <img src="assets/reprograma-fundos-claros.png" alt="logo reprograma" width="500">
 </h1>
 
-# Tema da Aula
+# Tema da Aula 
 
 Turma Online ON32 - Metodologia DevOps | Semana 10 | 2024 | Professora Raissa Brizeno
 
