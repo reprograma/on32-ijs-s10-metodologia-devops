@@ -10,17 +10,24 @@ jobs:
   build:
 
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: ./exercicios/para-sala/users-api-aula
+
+    strategy:
+      matrix:
+        node-version: [18.x]
+        # See supported Node.js release schedule at https://nodejs.org/en/about/releases/    
 
     steps:
     - name: checkout 
       uses: actions/checkout@v4
-      with:
-        path: ecercicios/para-sala/users-api-aula
 
     - name: Use Node.js ${{ matrix.node-version }}
       uses: actions/setup-node@v3
       with:
         node-version: ${{ matrix.node-version }}
+        
     - run: npm ci
     - run: npm run build --if-present
     - run: npm test
@@ -30,11 +37,13 @@ jobs:
       with:
         username: raissabrizeno
         password: dckr_pat_FA_dtQWNNB6w7ki2NTKNTwB76U4
-    
+
+    - name: Set up Docker Buildx
+      uses: docker/setup-buildx-action@v3
+
     - name: Build and push
-      id: buildx
       uses: docker/setup-buildx-action@v3
       with:
-        context: ./
+        context: exercicios/para-sala/users-api-aula
         push: true
         tags: raissabrizeno/users-api-aula:1.0.0
