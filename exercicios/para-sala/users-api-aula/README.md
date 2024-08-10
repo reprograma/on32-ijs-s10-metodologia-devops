@@ -107,12 +107,16 @@ CMD ["npm", "start"]
 
 ```
 
-- Buildando a aplicação em docker local:
+- Buildando a imagem da aplicação em docker local com tag:
+
+```sh
+docker build -t aula-devops:1.0.0 .
+```
+Executando a aplicação em container docker local:
 
 ```sh
 docker run -p 3000:3000 minha-aplicacao
 ```
-
 - Construindo um pipeline para a aplicação no Git Acctions que faz push para o Docker Hub:
 
   - Crie as secrets que vai usar no projeto. *Settings* > *secrets and variables* > clique em *New repository secret* > *Add Secret*. Faça isso com todas que for usar no pipeline.
