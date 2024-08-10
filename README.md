@@ -2,7 +2,7 @@
   <img src="assets/reprograma-fundos-claros.png" alt="logo reprograma" width="500">
 </h1>
 
-# Tema da Aula 
+# Tema da Aula
 
 Turma Online ON32 - Metodologia DevOps | Semana 10 | 2024 | Professora Raissa Brizeno
 
@@ -68,11 +68,15 @@ O que veremos essa semana?
 [Trunk-based development](https://www.atlassian.com/continuous-delivery/continuous-integration/trunk-based-development)
 
 ### Links documentação de ferramentas:
-* https://backstage.io/
-* https://helm.sh/docs/
-* https://tekton.dev/docs/
-* https://argoproj.github.io/cd/
+* [Backstage](https://backstage.io/)
+* [Helm](https://helm.sh/docs/)
+* [Tekton](https://tekton.dev/docs/)
+* [Argo](https://argoproj.github.io/cd/)
 * [AWS Treinamento e Certificação](https://aws.amazon.com/pt/training/?nc2=type_a)
+* [Docker Getting Started](https://docs.docker.com/guides/getting-started/)
+* [Docker Compose](https://docs.docker.com/compose/)
+* [Homebrew](https://brew.sh/)
+* [Colima](https://github.com/abiosoft/colima)
 
 
 ### Livros
@@ -84,7 +88,3 @@ O que veremos essa semana?
 <p align="center">
 Desenvolvido com :purple_heart:  por raisabrizeno
 </p>
-
-
-#TESTE
-#TESTE 2

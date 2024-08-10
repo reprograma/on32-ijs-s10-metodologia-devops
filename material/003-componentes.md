@@ -16,7 +16,8 @@
 
 
 ## Containers
-Containers são pacotes leves e portáteis que contêm tudo o que uma aplicação precisa para ser executada, incluindo o código, runtime, bibliotecas e dependências.
+Containers são pacotes leves e portáteis que contêm tudo o que uma aplicação precisa para ser executada, incluindo o código, runtime, bibliotecas e dependências. 
+Mais informações sobre Docker [Aqui](007-docker.md).
 
 
 <div style="text-align: center;">
