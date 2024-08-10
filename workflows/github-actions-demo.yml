@@ -67,7 +67,7 @@ jobs:
       if: github.ref == 'refs/heads/main'
       uses: docker/build-push-action@v4
       with:
-        context: exercicios/para-sala/metodologia-devops
+        context: exercicios/para-sala/users-api-aula
         push: true
-        tags: valdilanealves/aula-met-devops::1.0.0
+        tags: valdilanealves/aula-met-devops:2.0.0
         
