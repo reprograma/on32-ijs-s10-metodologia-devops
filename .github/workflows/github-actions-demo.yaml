@@ -27,14 +27,14 @@ jobs:
       uses: actions/checkout@v4
 
     # pega a versão declarada do Node.j e configura no ambiente virtual
-    - name: Use Node.js ${{ matrix.node-version }}
-      uses: actions/setup-node@v3
-      with:
-        node-version: ${{ matrix.node-version }}
+    # - name: Use Node.js ${{ matrix.node-version }}
+    #   uses: actions/setup-node@v3
+    #   with:
+    #     node-version: ${{ matrix.node-version }}
 
     # instala dependencias e roda os testes
-    - run: npm ci
-    - run: npm run build --if-present
+    # - run: npm ci
+    # - run: npm run build --if-present
     - run: npm test
 
     # lint para garantir que o código segue os padrões definidos
