@@ -41,11 +41,11 @@ O que veremos essa semana?
   - [Serviços e Ferramentas](./material/004-servicos-e-ferramentas.md)
   - [Inteligência Artificial (IA) e DevOps](./material/005-Inteligencia-artificial-e-devops.md)
   - [Git Flow vs Trunk Based](./material/006-gitflow-e-trunk-bases.md)
+  - [Docker](./material/007-docker.md)
 
-- [Materiais](#materiais)
+- [Materiais Usados](#materiais)
   - [PDF da Aula](./material/Aula_10_Metodologia_DevOps.pdf)
-
-  
+ 
 ---
 ### Desafio Semanal 
 - [Link para o desafio](./material/005-desafio-semanal.md)
@@ -78,6 +78,10 @@ O que veremos essa semana?
 * [Homebrew](https://brew.sh/)
 * [Colima](https://github.com/abiosoft/colima)
 
+### Cursos e tutoriais:
+* [Bash](https://learn.microsoft.com/pt-br/shows/bash-for-beginners/)
+* [Git para iniciantes](https://codegym.cc/pt/groups/posts/pt.379.introducao-ao-git-um-guia-completo-para-iniciantes)
+* [Docker para iniciantes](https://medium.com/inside-picpay/docker-para-iniciantes-ca5c34f9e3c2)
 
 ### Livros
 <h1>
