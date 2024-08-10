@@ -121,7 +121,7 @@ docker run -p 3000:3000 aula-devops:1.0.0
 ```
 Onde a aplicação vai estar rodando é no ```http://localhost:3000/users```
 
-- Construindo um pipeline para a aplicação no Git Acctions que faz push para o Docker Hub:
+### Construindo um pipeline para a aplicação no Git Acctions que faz push para o Docker Hub:
 
   - Crie as secrets que vai usar no projeto. *Settings* > *secrets and variables* > clique em *New repository secret* > *Add Secret*. Faça isso com todas que for usar no pipeline.
   
